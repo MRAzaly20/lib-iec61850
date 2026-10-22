@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\sv_publisher_example.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\sv_publisher_example.dir/objects.a @CMakeFiles\sv_publisher_example.dir\objects1.rsp
+C:\msys64\mingw64\bin\cc.exe -Wl,--whole-archive CMakeFiles\sv_publisher_example.dir/objects.a -Wl,--no-whole-archive -o sv_publisher_example.exe -Wl,--out-implib,libsv_publisher_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sv_publisher_example.dir\linkLibs.rsp

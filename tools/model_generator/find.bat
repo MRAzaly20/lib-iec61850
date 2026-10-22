@@ -1,0 +1,1 @@
+gcc find.c -IC:\npcap-sdk\Include -LC:\npcap-sdk\Lib\x64 -lwpcap -lPacket -o find.exe

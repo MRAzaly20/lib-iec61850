@@ -1,0 +1,1 @@
+gcc subs.c cid_parser.c -I C:/goose/libiec61850/tools/model_generator/libiec61850 -I C:/msys64/mingw64/include/libxml2 -L C:/msys64/mingw64/lib -L C:/goose/libiec61850/build/src -liec61850 -lxml2 -lws2_32  -o subs.exe -v
